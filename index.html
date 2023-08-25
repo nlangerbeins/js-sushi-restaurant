@@ -1,162 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fusion Sushi Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Kaisei Tokumin' rel='stylesheet'>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="/assets/icons/favicon.svg">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaisei Tokumin"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" href="/assets/icons/favicon.svg" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="wrapper_icons">
-            <div class="links">
-                <a href="https://www.instagram.com/">
-                    <img src="/assets/icons/insta.svg" alt="instagram">
-                </a>
-                <a href="https://www.facebook.com/">
-                    <img src="/assets/icons/facebook.svg" alt="facebok">
-                </a>
-                <a href="https://web.whatsapp.com/">
-                    <img src="/assets/icons/whatsapp.svg" alt="whatsapp">
-                </a>
-            </div>
-            <div class="rolls">
-                <img src="/assets/icons/rolls.svg" alt="rolls">
-            </div>
-            <div class="tuna">
-                <img src="/assets/icons/tuna-sashimi.svg" alt="tuna nigiri">
-            </div>
-            <div class="salmon">
-                <img src="/assets/icons/salmon.svg" alt="salmon nigiri">
-            </div>
+      <div class="wrapper_icons">
+        <div class="links">
+          <a href="https://www.instagram.com/">
+            <img src="/assets/icons/insta.svg" alt="instagram" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="/assets/icons/facebook.svg" alt="facebok" />
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img src="/assets/icons/whatsapp.svg" alt="whatsapp" />
+          </a>
         </div>
-        <header>
-            <div class="header_wrapper container">
-                <div class="logo">
-                    <a href="#top"> <!--prüfen ob so richtig ist-->
-                        <img src="/assets/icons/logo.svg" alt="logo"> 
-                    </a>                 
-                </div>
-                <input type="checkbox" id="menu_toggle">
-                <div class="hamburger_lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <ul class="nav">
-                    <li><a href="#top" id="navItem">HOME</a></li>
-                    <li><a href="#about-us" id="navItem">ABOUT US</a></li>
-                    <li><a href="#menu" id="navItem">MENU</a></li>
-                    <li><a href="#contact" id="navItem">CONTACT</a></li>
-                </ul>
-            </div>
-        </header>
-        <section class="main">
-            <div class="title">
-                <div class="title_img">
-                    <img class="title_img__nigiri" src="/assets/icons/salmon-nigiri.svg" alt="salmon nigiri">
-                    <img class="title_img__bg" src="/assets/icons/bg-nigiri.svg" alt="white circle">
-                </div>
-                <div class="title_heading">
-                    <p class="fusion">Fusion</p>
-                    <p class="sushi">Sushi</p>
-                </div>
-            </div>
-            <div class="heading">
-                <h2>WELCOME TO THE ESSENCE OF SUSHI </h2>
-                <p>Our dishes are chefs d’oeuvre created with freshness, quality and sustainable cultivation -  a fusion of regionality, quality and freshness.</p>
-            </div>
-            <div class="scroller">
-                <a href="#about-us"><img src="/assets/icons/arrows.svg" alt="scroller"></a>
-            </div>
-        </section>
-        <section class="about" id="about-us">
-            <div class="block_one">
-                <div class="block_one__column" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-once="true">
-                    <h3>ABOUT US</h3>
-                    <img src="/assets/icons/Line.svg" alt="line">
-                    <p>So much of Asia and much of international cooking – what could be better but a fusion of their similiar, but different streams, experiences, know-hows and art of cooking? No sooner said than done! Now it was up to find out the right name. Why not FUSION?  The cozy cedar clad restaurant has an extensive selection of fresh fish flown in daily from the Sea of Japan as well as both the Atlantic and Pacific oceans. We feature many combinations of fresh ingredients and delicacies and an award-winning sake list. </p>
-                </div>
-                <div class="column_img__one" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
-                    <img src="/assets/icons/about-us-one.png" alt="nigiri">
-                </div>
-            </div>
-            <div class="block_two">
-                <div class="column_img__two" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">
-                    <img src="/assets/icons/about-us-two.png" alt="sashimi">
-                </div>
-                <div class="block_two__column" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-once="true">
-                    <p>Whether you sit at the walnut Sushi Bar or at one of the cozy tables in the back room, Fusion Sushi will transport you to the other side of the world. Obsessive attention to detail should be the norm for sushi restaurants, not something to strive for. The complexity associated with creating the ideal sushi rice. The fragrance of freshly ground wasabi. The freshest fish from around the globe. These elements are just a fraction of what we believe to be vital in capturing the true essence of sushi. A great sushi restaurant must also prioritize intangible ingredients such as dedication, passion, liveliness and heart.  
-                    </p>
-                </div> 
-            </div>
-        </section>
-        <div class="inbetween">
-            <p>“Experience fusion cuisine of highest quality”</p>
+        <div class="rolls">
+          <img src="/assets/icons/rolls.svg" alt="rolls" />
         </div>
-        <section class="menu" id="menu">
-            <div class="menu_block" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-once="true">
-                <h3>MENU</h3>
-                <img src="/assets/icons/Line.svg" alt="line">
-                <p>Our menu items are subject to change based on the chef’s choice. A relaxed and free order of courses, enjoying, tasting, sharing – this is our motto: Sushi, Rolls or  Chef’s specials – any dish is fresh-ly prepared and served bit for bit. </p>
-            </div>
-            <div class="menu_img">
-                <img src="/assets/icons/menu.png" alt="nigiri plate" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">
-            </div>
-        </section>
-        <section class="menu_example">
-            <div class="menu_example__img">
-                <img class="menu_one" src="/assets/icons/menu 1.png" alt="menu" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
-                <img class="menu_two" src="/assets/icons/menu 2.png" alt="menu" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
-            </div>
-            <div class="menu_icon">
-                <img src="/assets/icons//sushi-plate.svg" alt="sushi plate">
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="info_block" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">
-                <div class="info_logo">
-                    <img src="/assets/icons/logo.svg" alt="logo">
-                </div>
-                <div class="info_address">
-                    <p class="red">ADDRESS:</p>
-                    <p class="info_text">Mark Spencer Str. 14</p>
-                    <p class="info_text">1202 Amsterdam</p>
-                    <p class="info_text">Netherlands</p>
-                </div>
-                <div class="info_open">
-                    <p class="red">OPEN:</p>
-                    <p class="info_text">Mo - Sa : 18:00 - 23:00</p>
-                </div>
-                <div class="info_phone">
-                    <p class="red">PHONE:</p>
-                    <p class="info_text">0012 / 10000123</p>
-                </div>
-                <div class="info_email">
-                    <p class="red">EMAIL:</p>
-                    <p class="info_text">sushi-fusion@sushi.com</p>
-                </div>
-            </div>
-            <div class="contact_block" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-once="true">
-                <h3>CONTACT</h3>
-                <img src="/assets/icons/Line.svg" alt="lime">
-                <p>You can reach us via phone, email or Whatsapp. Please notice that we don’t take any reservations.</p>
-                <img class="contact_img" src="/assets/icons/nigiri-plate.svg" alt="nigiri plate">
-            </div>
-        </section>
-        <footer>
-            <p>© 2022 by <span>Natallia Langerbeins</span></p>
-        </footer>
+        <div class="tuna">
+          <img src="/assets/icons/tuna-sashimi.svg" alt="tuna nigiri" />
+        </div>
+        <div class="salmon">
+          <img src="/assets/icons/salmon.svg" alt="salmon nigiri" />
+        </div>
+      </div>
+      <header>
+        <div class="header_wrapper container">
+          <div class="logo">
+            <a href="#top">
+              <!--prüfen ob so richtig ist-->
+              <img src="/assets/icons/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <input type="checkbox" id="menu_toggle" />
+          <div class="hamburger_lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="nav">
+            <li><a href="#top" id="navItem">HOME</a></li>
+            <li><a href="#about-us" id="navItem">ABOUT US</a></li>
+            <li><a href="#menu" id="navItem">MENU</a></li>
+            <li><a href="#contact" id="navItem">CONTACT</a></li>
+          </ul>
+        </div>
+      </header>
+      <section class="main">
+        <div class="title">
+          <div class="title_img">
+            <img
+              class="title_img__nigiri"
+              src="/assets/icons/salmon-nigiri.svg"
+              alt="salmon nigiri"
+            />
+            <img
+              class="title_img__bg"
+              src="/assets/icons/bg-nigiri.svg"
+              alt="white circle"
+            />
+          </div>
+          <div class="title_heading">
+            <p class="fusion">Fusion</p>
+            <p class="sushi">Sushi</p>
+          </div>
+        </div>
+        <div class="heading">
+          <h2>WELCOME TO THE ESSENCE OF SUSHI</h2>
+          <p>
+            Our dishes are chefs d’oeuvre created with freshness, quality and
+            sustainable cultivation - a fusion of regionality, quality and
+            freshness.
+          </p>
+        </div>
+        <div class="scroller">
+          <a href="#about-us"
+            ><img src="/assets/icons/arrows.svg" alt="scroller"
+          /></a>
+        </div>
+      </section>
+      <section class="about" id="about-us">
+        <div class="block_one">
+          <div
+            class="block_one__column"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+            data-aos-once="true"
+          >
+            <h3>ABOUT US</h3>
+            <img src="/assets/icons/Line.svg" alt="line" />
+            <p>
+              So much of Asia and much of international cooking – what could be
+              better but a fusion of their similiar, but different streams,
+              experiences, know-hows and art of cooking? No sooner said than
+              done! Now it was up to find out the right name. Why not FUSION?
+              The cozy cedar clad restaurant has an extensive selection of fresh
+              fish flown in daily from the Sea of Japan as well as both the
+              Atlantic and Pacific oceans. We feature many combinations of fresh
+              ingredients and delicacies and an award-winning sake list.
+            </p>
+          </div>
+          <div
+            class="column_img__one"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+          >
+            <img src="/assets/icons/about-us-one.png" alt="nigiri" />
+          </div>
+        </div>
+        <div class="block_two">
+          <div
+            class="column_img__two"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+          >
+            <img src="/assets/icons/about-us-two.png" alt="sashimi" />
+          </div>
+          <div
+            class="block_two__column"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            data-aos-once="true"
+          >
+            <p>
+              Whether you sit at the walnut Sushi Bar or at one of the cozy
+              tables in the back room, Fusion Sushi will transport you to the
+              other side of the world. Obsessive attention to detail should be
+              the norm for sushi restaurants, not something to strive for. The
+              complexity associated with creating the ideal sushi rice. The
+              fragrance of freshly ground wasabi. The freshest fish from around
+              the globe. These elements are just a fraction of what we believe
+              to be vital in capturing the true essence of sushi. A great sushi
+              restaurant must also prioritize intangible ingredients such as
+              dedication, passion, liveliness and heart.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="inbetween">
+        <p>“Experience fusion cuisine of highest quality”</p>
+      </div>
+      <section class="menu" id="menu">
+        <div
+          class="menu_block"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+          data-aos-once="true"
+        >
+          <h3>MENU</h3>
+          <img src="/assets/icons/Line.svg" alt="line" />
+          <p>
+            Our menu items are subject to change based on the chef’s choice. A
+            relaxed and free order of courses, enjoying, tasting, sharing – this
+            is our motto: Sushi, Rolls or Chef’s specials – any dish is fresh-ly
+            prepared and served bit for bit.
+          </p>
+        </div>
+        <div class="menu_img">
+          <img
+            src="/assets/icons/menu.png"
+            alt="nigiri plate"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+          />
+        </div>
+      </section>
+      <section class="menu_example">
+        <div class="menu_example__img">
+          <img
+            class="menu_one"
+            src="/assets/icons/menu 1.png"
+            alt="menu"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+          />
+          <img
+            class="menu_two"
+            src="/assets/icons/menu 2.png"
+            alt="menu"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+          />
+        </div>
+        <div class="menu_icon">
+          <img src="/assets/icons//sushi-plate.svg" alt="sushi plate" />
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div
+          class="info_block"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
+          <div class="info_logo">
+            <img src="/assets/icons/logo.svg" alt="logo" />
+          </div>
+          <div class="info_address">
+            <p class="red">ADDRESS:</p>
+            <p class="info_text">Mark Spencer Str. 14</p>
+            <p class="info_text">1202 Amsterdam</p>
+            <p class="info_text">Netherlands</p>
+          </div>
+          <div class="info_open">
+            <p class="red">OPEN:</p>
+            <p class="info_text">Mo - Sa : 18:00 - 23:00</p>
+          </div>
+          <div class="info_phone">
+            <p class="red">PHONE:</p>
+            <p class="info_text">0012 / 10000123</p>
+          </div>
+          <div class="info_email">
+            <p class="red">EMAIL:</p>
+            <p class="info_text">sushi-fusion@sushi.com</p>
+          </div>
+        </div>
+        <div
+          class="contact_block"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+          data-aos-once="true"
+        >
+          <h3>CONTACT</h3>
+          <img src="/assets/icons/Line.svg" alt="lime" />
+          <p>
+            You can reach us via phone, email or Whatsapp. Please notice that we
+            don’t take any reservations.
+          </p>
+          <img
+            class="contact_img"
+            src="/assets/icons/nigiri-plate.svg"
+            alt="nigiri plate"
+          />
+        </div>
+      </section>
+      <footer>
+        <p></p>
+      </footer>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+      AOS.init();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
